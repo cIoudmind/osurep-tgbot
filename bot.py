@@ -3,7 +3,8 @@ import os
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
 from aiogram.types import FSInputFile
-from osr2mp4 import Osr2mp4
+from osr2mp4.osr2mp4 import Osr2mp4
+
 
 API_TOKEN = "8598748891:AAF5RveKX5HuLlhY-dgMRLFcfTwtLSFEvCI"
 
